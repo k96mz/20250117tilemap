@@ -1,0 +1,16 @@
+{
+"name": "VTpractice",
+"description": "VTpractice",
+"version": "2",
+"minzoom": "0",
+"maxzoom": "3",
+"center": "-67.500000,20.489949,3",
+"bounds": "-180.000000,-85.051129,180.000000,83.645130",
+"antimeridian_adjusted_bounds": "0.106689,-85.040752,359.872620,83.645130",
+"type": "overlay",
+"tippecanoe_decisions": "{\"basezoom\":3,\"droprate\":1,\"retain_points_multiplier\":1}",
+"format": "pbf",
+"generator": "tippecanoe v2.56.0",
+"generator_options": "tippecanoe -e VTpractice --no-tile-compression --no-feature-limit --no-tile-size-limit '--drop-rate=1' -Z0 -z3 -L coastl:coastl.geojson -L landmass:landmass.geojson",
+"json": "{\"vector_layers\":[{\"id\":\"coastl\",\"description\":\"\",\"minzoom\":0,\"maxzoom\":3,\"fields\":{\"featurecla\":\"String\",\"min_zoom\":\"Number\",\"scalerank\":\"Number\"}},{\"id\":\"landmass\",\"description\":\"\",\"minzoom\":0,\"maxzoom\":3,\"fields\":{\"featurecla\":\"String\",\"min_zoom\":\"Number\",\"scalerank\":\"Number\"}}],\"tilestats\":{\"layerCount\":2,\"layers\":[{\"layer\":\"coastl\",\"count\":134,\"geometry\":\"LineString\",\"attributeCount\":3,\"attributes\":[{\"attribute\":\"featurecla\",\"count\":2,\"type\":\"string\",\"values\":[\"Coastline\",\"Country\"]},{\"attribute\":\"min_zoom\",\"count\":4,\"type\":\"number\",\"values\":[0,0.5,1,1.5],\"min\":0,\"max\":1.5},{\"attribute\":\"scalerank\",\"count\":2,\"type\":\"number\",\"values\":[0,1],\"min\":0,\"max\":1}]},{\"layer\":\"landmass\",\"count\":127,\"geometry\":\"Polygon\",\"attributeCount\":3,\"attributes\":[{\"attribute\":\"featurecla\",\"count\":1,\"type\":\"string\",\"values\":[\"Land\"]},{\"attribute\":\"min_zoom\",\"count\":4,\"type\":\"number\",\"values\":[0,0.5,1,1.5],\"min\":0,\"max\":1.5},{\"attribute\":\"scalerank\",\"count\":2,\"type\":\"number\",\"values\":[0,1],\"min\":0,\"max\":1}]}]}}"
+}
