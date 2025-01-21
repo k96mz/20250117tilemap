@@ -5,7 +5,7 @@
   "sources": {
     "v": {
       "type": "vector",
-      "url": "https://k96mz.github.io/20250117tilemap/VectorTileServer/",
+      "url": "https://k96mz.github.io/20250117tilemap/VectorTileServer",
       "minzoom": 0,
       "maxzoom": 8,
       "scheme": "xyz"
